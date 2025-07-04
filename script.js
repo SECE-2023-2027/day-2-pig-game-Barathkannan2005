@@ -47,7 +47,7 @@ btnRoll.addEventListener("click", function () {
 
   diceEl.classList.remove("hidden");
   // ERROR 2 corrected: Template literal now uses backticks ``
-  diceEl.src = `dice-${dice}.png`; // Assuming the dice images are .png based on common practice. If they are .jpeg, keep that extension.
+  diceEl.src = `dice-${dice}.jpg`; // Assuming the dice images are .png based on common practice. If they are .jpeg, keep that extension.
 
   if (dice !== 1) {
     currentScore += dice;
